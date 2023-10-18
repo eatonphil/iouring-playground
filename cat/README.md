@@ -1,3 +1,9 @@
+Prepare the test data:
+
+```
+$ cat /dev/random | base64 | head -c 409600000 > in.txt
+```
+
 To run:
 
 ```
